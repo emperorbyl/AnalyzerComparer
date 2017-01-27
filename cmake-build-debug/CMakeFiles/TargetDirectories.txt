@@ -1,0 +1,3 @@
+C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/HWK2.dir
+C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
