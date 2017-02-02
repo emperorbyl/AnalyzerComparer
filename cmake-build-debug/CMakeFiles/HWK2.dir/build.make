@@ -176,28 +176,28 @@ CMakeFiles/HWK2.dir/Report.cpp.obj.provides: CMakeFiles/HWK2.dir/Report.cpp.obj.
 CMakeFiles/HWK2.dir/Report.cpp.obj.provides.build: CMakeFiles/HWK2.dir/Report.cpp.obj
 
 
-CMakeFiles/HWK2.dir/Investor.cpp.obj: CMakeFiles/HWK2.dir/flags.make
-CMakeFiles/HWK2.dir/Investor.cpp.obj: ../Investor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\emperorbyl\CLionProjects\HWK2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HWK2.dir/Investor.cpp.obj"
-	C:\Users\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HWK2.dir\Investor.cpp.obj -c C:\Users\emperorbyl\CLionProjects\HWK2\Investor.cpp
+CMakeFiles/HWK2.dir/Analyst.cpp.obj: CMakeFiles/HWK2.dir/flags.make
+CMakeFiles/HWK2.dir/Analyst.cpp.obj: ../Analyst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\emperorbyl\CLionProjects\HWK2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HWK2.dir/Analyst.cpp.obj"
+	C:\Users\mingw32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HWK2.dir\Analyst.cpp.obj -c C:\Users\emperorbyl\CLionProjects\HWK2\Analyst.cpp
 
-CMakeFiles/HWK2.dir/Investor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HWK2.dir/Investor.cpp.i"
-	C:\Users\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\emperorbyl\CLionProjects\HWK2\Investor.cpp > CMakeFiles\HWK2.dir\Investor.cpp.i
+CMakeFiles/HWK2.dir/Analyst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HWK2.dir/Analyst.cpp.i"
+	C:\Users\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\emperorbyl\CLionProjects\HWK2\Analyst.cpp > CMakeFiles\HWK2.dir\Analyst.cpp.i
 
-CMakeFiles/HWK2.dir/Investor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HWK2.dir/Investor.cpp.s"
-	C:\Users\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\emperorbyl\CLionProjects\HWK2\Investor.cpp -o CMakeFiles\HWK2.dir\Investor.cpp.s
+CMakeFiles/HWK2.dir/Analyst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HWK2.dir/Analyst.cpp.s"
+	C:\Users\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\emperorbyl\CLionProjects\HWK2\Analyst.cpp -o CMakeFiles\HWK2.dir\Analyst.cpp.s
 
-CMakeFiles/HWK2.dir/Investor.cpp.obj.requires:
+CMakeFiles/HWK2.dir/Analyst.cpp.obj.requires:
 
-.PHONY : CMakeFiles/HWK2.dir/Investor.cpp.obj.requires
+.PHONY : CMakeFiles/HWK2.dir/Analyst.cpp.obj.requires
 
-CMakeFiles/HWK2.dir/Investor.cpp.obj.provides: CMakeFiles/HWK2.dir/Investor.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Investor.cpp.obj.provides.build
-.PHONY : CMakeFiles/HWK2.dir/Investor.cpp.obj.provides
+CMakeFiles/HWK2.dir/Analyst.cpp.obj.provides: CMakeFiles/HWK2.dir/Analyst.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Analyst.cpp.obj.provides.build
+.PHONY : CMakeFiles/HWK2.dir/Analyst.cpp.obj.provides
 
-CMakeFiles/HWK2.dir/Investor.cpp.obj.provides.build: CMakeFiles/HWK2.dir/Investor.cpp.obj
+CMakeFiles/HWK2.dir/Analyst.cpp.obj.provides.build: CMakeFiles/HWK2.dir/Analyst.cpp.obj
 
 
 # Object files for target HWK2
@@ -207,7 +207,7 @@ HWK2_OBJECTS = \
 "CMakeFiles/HWK2.dir/Comparer.cpp.obj" \
 "CMakeFiles/HWK2.dir/Transaction.cpp.obj" \
 "CMakeFiles/HWK2.dir/Report.cpp.obj" \
-"CMakeFiles/HWK2.dir/Investor.cpp.obj"
+"CMakeFiles/HWK2.dir/Analyst.cpp.obj"
 
 # External object files for target HWK2
 HWK2_EXTERNAL_OBJECTS =
@@ -217,7 +217,7 @@ HWK2.exe: CMakeFiles/HWK2.dir/Utils.cpp.obj
 HWK2.exe: CMakeFiles/HWK2.dir/Comparer.cpp.obj
 HWK2.exe: CMakeFiles/HWK2.dir/Transaction.cpp.obj
 HWK2.exe: CMakeFiles/HWK2.dir/Report.cpp.obj
-HWK2.exe: CMakeFiles/HWK2.dir/Investor.cpp.obj
+HWK2.exe: CMakeFiles/HWK2.dir/Analyst.cpp.obj
 HWK2.exe: CMakeFiles/HWK2.dir/build.make
 HWK2.exe: CMakeFiles/HWK2.dir/linklibs.rsp
 HWK2.exe: CMakeFiles/HWK2.dir/objects1.rsp
@@ -235,7 +235,7 @@ CMakeFiles/HWK2.dir/requires: CMakeFiles/HWK2.dir/Utils.cpp.obj.requires
 CMakeFiles/HWK2.dir/requires: CMakeFiles/HWK2.dir/Comparer.cpp.obj.requires
 CMakeFiles/HWK2.dir/requires: CMakeFiles/HWK2.dir/Transaction.cpp.obj.requires
 CMakeFiles/HWK2.dir/requires: CMakeFiles/HWK2.dir/Report.cpp.obj.requires
-CMakeFiles/HWK2.dir/requires: CMakeFiles/HWK2.dir/Investor.cpp.obj.requires
+CMakeFiles/HWK2.dir/requires: CMakeFiles/HWK2.dir/Analyst.cpp.obj.requires
 
 .PHONY : CMakeFiles/HWK2.dir/requires
 

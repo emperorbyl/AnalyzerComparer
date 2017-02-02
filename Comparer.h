@@ -6,15 +6,15 @@
 #define HWK2_COMPARER_H
 
 
+#include "Report.h"
+
 class Comparer {
 private:
-    double seedMoney;
     double simDays;
     double totalProfitLoss;
     double profitLossDay;
 public:
     double calculateProfitLossDay();
-    double getProfitLossDay();
 };
 
 

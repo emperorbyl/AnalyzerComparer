@@ -21,6 +21,19 @@ bool split(const std::string& s, char delimiter, std::string elements[], int exp
     return (i==expectedNumberOfElements);
 }
 
+std::string getNextPartOfLine(std::ifstream& inputStream)
+{
+    std::string part = "";
+    if (inputStream.is_open() && !inputStream.eof())
+    {
+        std::getline(inputStream, part, ',');
+        if(part.empty() || part == NULL)
+            std::getline(inputStream, part);
+
+    }
+    return part;
+}
+
 std::string getTrimmedLine(std::ifstream& inputStream)
 {
     std::string line = "";

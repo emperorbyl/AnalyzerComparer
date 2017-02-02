@@ -122,6 +122,33 @@ HWK2/fast:
 	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/build
 .PHONY : HWK2/fast
 
+Analyst.obj: Analyst.cpp.obj
+
+.PHONY : Analyst.obj
+
+# target to build an object file
+Analyst.cpp.obj:
+	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Analyst.cpp.obj
+.PHONY : Analyst.cpp.obj
+
+Analyst.i: Analyst.cpp.i
+
+.PHONY : Analyst.i
+
+# target to preprocess a source file
+Analyst.cpp.i:
+	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Analyst.cpp.i
+.PHONY : Analyst.cpp.i
+
+Analyst.s: Analyst.cpp.s
+
+.PHONY : Analyst.s
+
+# target to generate assembly for a file
+Analyst.cpp.s:
+	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Analyst.cpp.s
+.PHONY : Analyst.cpp.s
+
 Comparer.obj: Comparer.cpp.obj
 
 .PHONY : Comparer.obj
@@ -148,33 +175,6 @@ Comparer.s: Comparer.cpp.s
 Comparer.cpp.s:
 	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Comparer.cpp.s
 .PHONY : Comparer.cpp.s
-
-Investor.obj: Investor.cpp.obj
-
-.PHONY : Investor.obj
-
-# target to build an object file
-Investor.cpp.obj:
-	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Investor.cpp.obj
-.PHONY : Investor.cpp.obj
-
-Investor.i: Investor.cpp.i
-
-.PHONY : Investor.i
-
-# target to preprocess a source file
-Investor.cpp.i:
-	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Investor.cpp.i
-.PHONY : Investor.cpp.i
-
-Investor.s: Investor.cpp.s
-
-.PHONY : Investor.s
-
-# target to generate assembly for a file
-Investor.cpp.s:
-	$(MAKE) -f CMakeFiles\HWK2.dir\build.make CMakeFiles/HWK2.dir/Investor.cpp.s
-.PHONY : Investor.cpp.s
 
 Report.obj: Report.cpp.obj
 
@@ -293,12 +293,12 @@ help:
 	@echo ... HWK2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Analyst.obj
+	@echo ... Analyst.i
+	@echo ... Analyst.s
 	@echo ... Comparer.obj
 	@echo ... Comparer.i
 	@echo ... Comparer.s
-	@echo ... Investor.obj
-	@echo ... Investor.i
-	@echo ... Investor.s
 	@echo ... Report.obj
 	@echo ... Report.i
 	@echo ... Report.s

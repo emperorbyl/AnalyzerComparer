@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/emperorbyl/CLionProjects/HWK2/Analyst.cpp" "C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/HWK2.dir/Analyst.cpp.obj"
   "C:/Users/emperorbyl/CLionProjects/HWK2/Comparer.cpp" "C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/HWK2.dir/Comparer.cpp.obj"
-  "C:/Users/emperorbyl/CLionProjects/HWK2/Investor.cpp" "C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/HWK2.dir/Investor.cpp.obj"
   "C:/Users/emperorbyl/CLionProjects/HWK2/Report.cpp" "C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/HWK2.dir/Report.cpp.obj"
   "C:/Users/emperorbyl/CLionProjects/HWK2/Transaction.cpp" "C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/HWK2.dir/Transaction.cpp.obj"
   "C:/Users/emperorbyl/CLionProjects/HWK2/Utils.cpp" "C:/Users/emperorbyl/CLionProjects/HWK2/cmake-build-debug/CMakeFiles/HWK2.dir/Utils.cpp.obj"

@@ -15,7 +15,7 @@ std::string trim(const std::string& str);
 std::string ltrim(const std::string& str);
 std::string rtrim(const std::string& str);
 bool IsNotWhiteSpace (char ch);
-
+std::string getNextPartOfLine(std::ifstream& inputStream);
 std::string centerString(const std::string& str, int width);
 
 #endif //ANALYSTRANKERANDCOMPARER_UTILS_H

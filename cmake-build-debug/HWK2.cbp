@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/emperorbyl/CLionProjects/HWK2/Analyst.cpp">
+			<Option target="HWK2"/>
+		</Unit>
+		<Unit filename="C:/Users/emperorbyl/CLionProjects/HWK2/Analyst.h">
+			<Option target="HWK2"/>
+		</Unit>
 		<Unit filename="C:/Users/emperorbyl/CLionProjects/HWK2/Comparer.cpp">
 			<Option target="HWK2"/>
 		</Unit>
 		<Unit filename="C:/Users/emperorbyl/CLionProjects/HWK2/Comparer.h">
-			<Option target="HWK2"/>
-		</Unit>
-		<Unit filename="C:/Users/emperorbyl/CLionProjects/HWK2/Investor.cpp">
-			<Option target="HWK2"/>
-		</Unit>
-		<Unit filename="C:/Users/emperorbyl/CLionProjects/HWK2/Investor.h">
 			<Option target="HWK2"/>
 		</Unit>
 		<Unit filename="C:/Users/emperorbyl/CLionProjects/HWK2/Report.cpp">
